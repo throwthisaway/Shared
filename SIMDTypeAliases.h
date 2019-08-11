@@ -12,6 +12,7 @@
 #include <glm/glm.hpp>
 #ifdef PLATFORM_MAC_OS
 #pragma clang diagnostic pop
+#else
 #endif
 using float2 = MSVC_ALIGN16 glm::vec2;
 using float3 = MSVC_ALIGN16 glm::vec3;

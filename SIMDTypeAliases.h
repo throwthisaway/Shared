@@ -18,6 +18,7 @@ using float2 = MSVC_ALIGN16 glm::vec2;
 using float3 = MSVC_ALIGN16 glm::vec3;
 using float4 = MSVC_ALIGN16 glm::vec4;
 using float4x4 = MSVC_ALIGN16 glm::mat4x4;
+using float3x3 = MSVC_ALIGN16 glm::mat3x3;
 
 using packed_float2 = glm::vec2;
 using packed_float3 = glm::vec3;
